@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 *{
-    background-color: white;
+    background-color:white;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+}
+nav{
+    overflow: hidden;
+
 }
 
 
@@ -20,4 +24,24 @@ li{
 }
 .LOGO{
     float: left;
+}
+.wrapper{
+   
+margin-top: 10%;
+display: flex;
+justify-content: center;
+
+}
+.wrapper .menu{
+     
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: solid green;
+}
+.wrapper .menu h3{
+    color: tomato;
+    margin-top: 30px;
 }

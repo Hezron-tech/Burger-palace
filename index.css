@@ -10,6 +10,10 @@ nav{
 
 }
 
+.Burger .ul .cook img{
+    float: right;
+}
+
 
 ul{
     width: auto;
@@ -45,3 +49,11 @@ justify-content: center;
     color: tomato;
     margin-top: 30px;
 }
+    .wrapper .menu image{
+        width: 50px;
+        height: 50px;
+    }
+    .wrapper .menu .image img{
+        width: 70px;
+        height: 70px;
+    }

@@ -4,14 +4,19 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 nav{
     overflow: hidden;
 
 }
 
-.Burger .ul .cook img{
+.Burger img{
     float: right;
+    height: 200px;
+    width: 100px;
+    background-color: tomato;
+    
 }
 
 

@@ -9,6 +9,7 @@
 nav{
     overflow: hidden;
     
+    
 
 }
 .LOGO img{
@@ -17,7 +18,7 @@ nav{
 }
 .LOGO p{
     font-size: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding-left: 30px;
 }
 
@@ -28,7 +29,7 @@ button{
  border-top-right-radius: 10px;
     background-color: chocolate;
     font-size: 30px;
-    margin-top: 3%;
+    
 }
 .Burger h2{
     font-size: 50px;
@@ -40,13 +41,13 @@ button{
     margin-left:7%;
 }
 .Burger img{
+    width: 20vw;
+    height: 500px;
+    background-color: orange;
+    margin-right: 3%;
     
     float: right;
-    height: 200px;
-    width: 100px;
-   margin-top: 2px;
-    margin-right: 5px;
-    margin-bottom: 10%;
+  
    
   
     
@@ -100,6 +101,9 @@ justify-content: center;
         width: 70px;
         height: 70px;
     }
+    h1{
+        text-align: center;
+    }
     .meal{
         display: flex ;
         justify-content: center;
@@ -147,21 +151,23 @@ justify-content: center;
     margin-right: 20%;
     margin-bottom: 3%;
     }
+    .stamp h6{
+        text-align: center;
+        color: indianred;
+        font-size: 30px;
+    }
 
-    
+    .stamp p{
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
 
 .box.list{
 font-size: 20px;
   }
-  .stamp ol{
-      font-size: 30px;
-      justify-content: center;
-      
-      
-  }
-  .stamp .ol li{
-      display: table-column;
-  }
+ 
 .footer{
   margin-left: 3%;
   width: 100%;

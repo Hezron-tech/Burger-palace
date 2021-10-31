@@ -153,8 +153,14 @@ justify-content: center;
 .box.list{
 font-size: 20px;
   }
-  .stamp .ul{
-      font-size: 20px;
+  .stamp ol{
+      font-size: 30px;
+      justify-content: center;
+      
+      
+  }
+  .stamp .ol li{
+      display: table-column;
   }
 .footer{
   margin-left: 3%;

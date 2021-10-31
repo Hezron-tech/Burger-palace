@@ -22,7 +22,7 @@ nav{
     padding-left: 30px;
 }
 
-button{
+.Burger button{
     margin-left: 10%;
  border-bottom-left-radius: 10px;
  border-top-left-radius: 10px;
@@ -167,7 +167,17 @@ justify-content: center;
 .box.list{
 font-size: 20px;
   }
- 
+ .article h5{
+     text-align:right;
+     font-size: 20px;
+ }
+ .article .log{
+     float: right;
+
+ }
+ .article .log button{
+     background-color: chocolate;
+ }
 .footer{
   margin-left: 3%;
   width: 100%;

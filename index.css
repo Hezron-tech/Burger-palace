@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 *{
-    background-color:white;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-nav{
+.nav{
     overflow: hidden;
-    
-    
-
 }
 .LOGO img{
     height: 100px;
@@ -29,60 +25,84 @@ nav{
  border-top-right-radius: 10px;
     background-color: chocolate;
     font-size: 30px;
-    
 }
-.Burger h2{
-    font-size: 50px;
-    margin-left: 7%;
-
+.polygon{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #F6B400;right: 0;
+ 
 }
-.Burger p{
+.new_feature{
+    position: relative;
+}
+nav{
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+}
+.nav-bar li{
+    padding: 25px;
+    list-style: none;
     font-size: 20px;
-    margin-left:7%;
+    font-weight: bold;
 }
-.Burger img{
-    width: 20vw;
-    height: 400px;
-    background-color: orange;
-    margin-right: 3%;
-    
-    float: right;
-    clear: left;
-  
-   
-  
-    
+.nav-bar li:hover{
+    border-bottom: 5px solid orange;
 }
-
-
-ul{
-    width: auto;
-    float: right;
-    margin-top: 0px;
-    font-size: 30px;
-
+.header_logo{
+    display: flex;
+    justify-content: space-around;
 }
-
-li{
-    display: inline-block;
-    padding: 15px 30px;
-    color: brown;
+.header_logo h3{
+    font-size: 45px;
+}.btn{
+   background: #F6B400;
+   font-size: 16px;
+   padding: 16px 30px;
+  border: none;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
 }
-.LOGO{
+.description{
     float: left;
+    font-size: 30px;
+    margin-right: 6%;
+    margin-left: 5%;
+    padding-top: 200px;
 }
+.description button{
+    margin-top: 50px;
+}
+.description p{
+    margin-top: 50px;
+}
+.img{
+   height: 300px;
+}
+    
+
+
+
 
 .wrapper{
     
    background-color: rgb(210, 216, 216);
-margin-top: 10%;
+margin-top: 25%;
 display: flex;
 justify-content: center;
 
 
 }
 .wrapper .menu{
-     
+   
     margin: 10px;
     margin-bottom: 50px;
     width: 300px;
